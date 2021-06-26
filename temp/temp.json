@@ -1,0 +1,33 @@
+{
+    "script": [
+      {
+        "name": "",
+        "code": ""
+      }
+    ],
+    "definition": [
+      {
+        "builtin": false,
+        "collection": "ldh0423",
+        "group": "",
+        "name": "",
+        "author": "ldh0423",
+        "version": 1,
+        "description": "",
+        "className": "",
+        "methodName": "",
+        "parameterTypes": [
+        ],
+        "returnType":"",
+        "minSdk": 1,
+        "maxSdk": 9999,
+        "minApk": 0,
+        "maxApk": 2147483647,
+        "enabled": true,
+        "optional": false,
+        "usage": true,
+        "notify": false,
+        "luaScript": "@ldh0423."
+      }
+    ]
+  }

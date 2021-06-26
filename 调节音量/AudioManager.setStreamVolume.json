@@ -1,0 +1,35 @@
+{
+  "script": [
+    {
+      "name": "ldh0423.AudioManager.setStreamVolume",
+      "code": "function before(hook, param)\n    param:setResult(nil)\n    return true\nend\n"
+    }
+  ],
+  "definition": [
+    {
+      "builtin": false,
+      "collection": "ldh0423",
+      "group": "调节音量",
+      "name": "AudioManager.setStreamVolume",
+      "author": "ldh0423",
+      "version": 1,
+      "description": "阻止应用调节音量",
+      "className": "android.media.AudioManager",
+      "methodName": "setStreamVolume",
+      "parameterTypes": [
+        "int",
+        "int",
+        "int"
+      ],
+      "minSdk": 1,
+      "maxSdk": 99999,
+      "minApk": 0,
+      "maxApk": 2147483647,
+      "enabled": true,
+      "optional": false,
+      "usage": true,
+      "notify": false,
+      "luaScript": "@ldh0423.AudioManager.setStreamVolume"
+    }
+  ]
+}
